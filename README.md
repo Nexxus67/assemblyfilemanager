@@ -3,3 +3,5 @@ The file manager program works by interacting with the file system of the operat
 The program allows the user to create and delete files and folders by using commands such as "mkdir" to create a new folder and "rm" to delete a file or folder. The user can also copy and move files between directories by using the "cp" and "mv" commands.
 
 The program provides a user-friendly interface to make it easy for the user to interact with the file system. The interface may include features such as a graphical display of the directories and files, drag and drop functionality, and context menus for performing common file management tasks.
+
+Btw, the IRQ are from Windows, so you'll need to change the syscalls of your main OS.
