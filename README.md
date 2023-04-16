@@ -4,4 +4,4 @@ The program allows the user to create and delete files and folders by using comm
 
 The program provides a user-friendly interface to make it easy for the user to interact with the file system. The interface may include features such as a graphical display of the directories and files, drag and drop functionality, and context menus for performing common file management tasks.
 
-Btw, the IRQ are from Windows, so you'll need to change the syscalls of your main OS.
+Btw, the IRQ are from Windows, so you'll need to change the syscalls of your main OS (0x21 for macOS instead of 0x80).
